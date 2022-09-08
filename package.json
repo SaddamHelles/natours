@@ -1,0 +1,23 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "landing page for natours",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SaddamHelles/natours.git"
+  },
+  "author": "Saddam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SaddamHelles/natours/issues"
+  },
+  "homepage": "https://github.com/SaddamHelles/natours#readme",
+  "dependencies": {
+    "live-server": "^1.2.2",
+    "sass": "^1.54.5"
+  }
+}
