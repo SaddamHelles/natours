@@ -10,6 +10,36 @@
     <title>Natours | Exciting tours for advanturous people</title>
   </head>
   <body>
+    <div class="navigation">
+      <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+      <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon">&nbsp;</span>
+      </label>
+      <div class="navigation__background">&nbsp;</div>
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"
+              ><span>01</span>About Natours</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"><span>02</span>Your benfits</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"
+              ><span>03</span>Popular tours</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"><span>04</span>Stories</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"><span>05</span>Book now</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <header class="header">
       <div class="header__logo-box">
         <img src="imgs/logo-white.png" class="header__logo" alt="Logo" />
@@ -137,7 +167,7 @@
                 </h4>
                 <div class="card__details">
                   <ul>
-                    <li>3 daytours</li>
+                    <li>3 day tours</li>
                     <li>Up to 30 people</li>
                     <li>2 tour guides</li>
                     <li>Sleep in cozy hotels</li>
@@ -389,9 +419,10 @@
         </div>
         <div class="col-1-of-2">
           <p class="footer__copyright">
-            Build my <a href="#" class="footer_link"> Jonas Schmedtmann </a> for
-            his online course
-            <a href="#" class="footer_link"> Advanced CSS and Sass </a>.
+            Build my
+            <a href="#" class="footer__link"> Jonas Schmedtmann </a> for his
+            online course
+            <a href="#" class="footer__link"> Advanced CSS and Sass </a>.
             Copyright &copy; by Jonas Schmedtmann. You are 100% allowed to use
             this webpage for both personal and commercial use, but NOT to claim
             it as your own design. A credit to the original author, Jonas
